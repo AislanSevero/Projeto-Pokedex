@@ -59,7 +59,7 @@ main .listagem-pokemon{
 
 main .cartao-pokemon{
 	background-color: #d8e3ec;
-	width: 200px;
+	width: 250px;
 	border-radius: 15px;
 	padding: 15px;
 	align-items: center;
@@ -98,13 +98,17 @@ height: 90px;
 main .cartao-pokemon .tipos{
 	display: flex;
 	gap: 15px;
-	background-color: aqua;
-	padding: 8px;
-	border-radius: 10px;
 }
 
-.grama{border-radius:10px; background-color:#7ac74c;}
-.veneno{background-color: #df67ddfb;}
-.fogo{background-color: #ee8130;}
-.agua{background-color: #6390f0;}
-.inseto{background-color: #a6b91a;}
+.grama{border-radius: 10px; padding: 4px; background-color:#7ac74c;}
+.veneno{ border-radius: 10px; padding: 4px; background-color: #df67ddfb;}
+.fogo{border-radius: 10px; padding: 4px; background-color: #ee8130;}
+.agua{border-radius: 10px; padding: 4px; background-color: #6390f0;}
+.inseto{border-radius: 10px; padding: 4px; background-color: #a6b91a;}
+
+main .descricao{
+	max-height: 80px;
+	overflow-y: scroll;
+	font-size: 14px;
+	padding-right: 10px;
+}
