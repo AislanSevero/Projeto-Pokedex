@@ -105,6 +105,7 @@ main .cartao-pokemon .tipos{
 .fogo{border-radius: 10px; padding: 4px; background-color: #ee8130;}
 .agua{border-radius: 10px; padding: 4px; background-color: #6390f0;}
 .inseto{border-radius: 10px; padding: 4px; background-color: #a6b91a;}
+.voador{border-radius: 10px; padding: 4px; background-color: #a890f0 ;}
 
 main .descricao{
 	max-height: 80px;
