@@ -106,6 +106,10 @@ main .cartao-pokemon .tipos{
 .agua{border-radius: 10px; padding: 4px; background-color: #6390f0;}
 .inseto{border-radius: 10px; padding: 4px; background-color: #a6b91a;}
 .voador{border-radius: 10px; padding: 4px; background-color: #a890f0 ;}
+.normal{border-radius: 10px; padding: 4px; background-color: #a8a878;}
+.eletrico{border-radius: 10px; padding: 4px; background-color: #f8d030;}
+.terra{border-radius: 10px; padding: 4px; background-color: #b68b3d;}
+.fada{border-radius: 10px; padding: 4px; background-color: #ee99ac;}
 
 main .descricao{
 	max-height: 80px;
