@@ -20,6 +20,7 @@ body.modo-escuro {
 	background-color: #212121;
 	color: #f5f5f5;
 }
+
 .container {
 	display: flex;
 	justify-content: flex-end;
@@ -28,6 +29,7 @@ body.modo-escuro {
 header {
 	padding: 25px;
 }
+
 main .background {
 	position: fixed;
 	top: 0;
@@ -128,7 +130,7 @@ main .cartao-pokemon .tipos {
 .veneno {
 	border-radius: 10px;
 	padding: 4px;
-	background-color: #df67ddfb;
+	background-color: #d748d5fb;
 }
 
 .fogo {
@@ -170,13 +172,47 @@ main .cartao-pokemon .tipos {
 .terra {
 	border-radius: 10px;
 	padding: 4px;
-	background-color: #b68b3d;
+	background-color: #e0c068;
 }
 
 .fada {
 	border-radius: 10px;
 	padding: 4px;
 	background-color: #ee99ac;
+}
+
+.lutador {
+	border-radius: 10px;
+	padding: 4px;
+	background-color: #fa2747;
+}
+
+.psiquico {
+	border-radius: 10px;
+	padding: 4px;
+	background-color: #f85888;
+}
+
+.pedra {
+	border-radius: 10px;
+	padding: 4px;
+	background-color: #b8a038;
+}
+.gelo {
+	border-radius: 10px;
+	padding: 4px;
+	background-color:#98d8d8;
+}
+.fantasma {
+	border-radius: 10px;
+	padding: 4px;
+	background-color: #8c6ebb;
+}
+
+.dragao	{
+	border-radius: 10px;
+	padding: 4px;
+	background-color: #7044d6;
 }
 
 main .descricao {
