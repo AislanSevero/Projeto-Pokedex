@@ -14,23 +14,28 @@
 
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="scrollbar.css">
-
+	
 </head>
 
 <body>
 	<header>
-
-
 		<div class="container">
 			<button id="botao-alterar-tema">
 				<img src="./imagens/sun.png" alt="imagem do sol" class="imagem-botao">
 			</button>
 		</div>
+
+		<input type="text" id="searchInput" placeholder="  digite aqui sua pesquisa">
+		<img id="searchButton" class="cursor-pointer" src="./imagens/Detective_Pikachu.png" alt="Pesquisar">
+		<div id="searchResult"></div>
+
 	</header>
 	<main>
+
+
 		<a class="background"><img src="./imagens/pokeball.png" alt="pokeball">
 		</a>
-		<ul class="listagem-pokemon">
+		<ul id="cardList" class="listagem-pokemon">
 
 			<li class="cartao-pokemon">
 				<div class="informacoes">
@@ -45,7 +50,7 @@
 				<p class="descricao">O bulbo em suas costas está cheio de nutrientes. Nele, Bulbasaur armazena suas
 					energias. O bulbo vai
 					crescendo à medida que envelhece porque ele absorve os raios de sol.</p>
-
+			</li>		
 			<li class="cartao-pokemon">
 				<div class="informacoes">
 					<span>Ivysaur</span>
@@ -58,7 +63,7 @@
 				</ul>
 				<p class="descricao">A luz solar fará a flor em suas costas crescer. Conforme Ivysaur for crescendo,
 					essa flor irá desabrochar. Ela irá soltar um doce aroma quando florescer.</p>
-
+			</li>		
 			<li class="cartao-pokemon">
 				<div class="informacoes">
 					<span>Venusaur</span>
@@ -72,7 +77,7 @@
 				<p class="descricao">A luz solar que a flor de suas costas absorve produz energia para seu corpo. Por
 					esta razão, ele fica
 					mais forte no verão. O aroma dessa flor pode acalmar as emoções das pessoas.</p>
-
+			</li>		
 			<li class="cartao-pokemon">
 				<div class="informacoes">
 					<span>Charmander</span>
@@ -85,7 +90,7 @@
 				<p class="descricao">A chama que possui na ponta de seu rabo mostra a força de sua vida. Se ele estiver
 					fraco, a chama irá
 					diminuir. Quando está saudável, a chama brilhará intensamente.</p>
-
+			</li>		
 			<li class="cartao-pokemon">
 				<div class="informacoes">
 					<span>Charmeleon</span>
@@ -98,7 +103,7 @@
 				<p class="descricao">Gosta muito de brigas, por isso busca constantemente por adversários. Ele ataca com
 					suas garras afiadas e usando sua cauda como chicote de fogo. Pode soltar chamas azuis quando muito
 					animado.</p>
-
+			</li>		
 			<li class="cartao-pokemon">
 				<div class="informacoes">
 					<span>Charizard</span>
@@ -111,7 +116,7 @@
 				</ul>
 				<p class="descricao"> Seu fogo é quente o suficiente para derreter rochas. Quando nervoso, a chama em
 					sua cauda queimará intensamente. É orgulhoso e voa pelos céus em busca de adversários poderosos.</p>
-
+			</li>		
 			<li class="cartao-pokemon">
 				<div class="informacoes">
 					<span>Squirtle</span>
@@ -1941,6 +1946,7 @@
 	</main>
 
 	<script src="./index.js"></script>
+	<script src="./searchbutton.js"></script>
 </body>
 
 </html>
